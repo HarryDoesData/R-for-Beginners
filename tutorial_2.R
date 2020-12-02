@@ -21,31 +21,33 @@ print("World")
 ###############
 ### Objects ###
 ###############
-### Assigning an object
+### Assigning an object ###
 a <- 36
 b = 3
 
 
-### Overwriting an object
+### Overwriting an object ###
 a <- 50
 a <- a + 4
 
 
-### Using an object
+### Using an object ###
 a / b
 z <- a / b
 
 
-### Naming objects
+### Naming objects ###
 object_1 <- 3
 
 #_object1 <- 3
 #1object <- 3
 
-### Deleting an object
+
+### Deleting an object ###
 rm(object_1)
 
-### Environment
+
+### Environment ###
 # All objects stored in your current R session
 ls()
 
@@ -58,7 +60,7 @@ ls()
 ###############
 ### Numeric ###
 ###############
-### Basic operations
+### Basic operations ###
 # Addition
 a + b
 
@@ -79,7 +81,7 @@ a / b
 a ^ b
 
 
-### BODMAS
+### BODMAS ###
 # Brackets, Orders (Powers/Roots), Division, Multiplication, Addition, Subtraction
 (1 + 2) * 10 + 15 / 5 - 2 ^ 2
 (3) * 10 + 15/5 - 2 ^ 2
@@ -89,7 +91,7 @@ a ^ b
 33 - 4
 29
 
-### Functions
+### Functions ###
 # Square Root
 ?sqrt
 sqrt(x = 25)
@@ -111,7 +113,7 @@ exp(x = 7)
 2.7182818 ^ 7
 
 
-### Scientific Notation
+### Scientific Notation ###
 # Really big numbers
 25000000
 2.5e7
@@ -133,7 +135,7 @@ password <- "2i!@&*"
 "A" > "a"
 
 
-### Escape sequences
+### Escape sequences ###
 cat("Harry \"Data\" Norton")
 cat("Harry Norton (He\\Him)")
 cat("Harry\nNorton")
@@ -141,12 +143,12 @@ cat("Harry\tNorton")
 cat("Harry\bNorton")
 
 
-### Basic Operations
+### Basic Operations ###
 #first_name + second_name
 #first_name * 2
 
 
-### Functions
+### Functions ###
 # Number of characters
 nchar(x = first_name)
 ?nchar
@@ -186,7 +188,7 @@ over_18
 good_at_r
 
 
-### Logical Comparisons
+### Logical Comparisons ###
 x <- 7
 y <- 4
 z <- 7
@@ -216,7 +218,7 @@ x >= y
 x >= z
 
 
-### Multiple Comparisons
+### Multiple Comparisons ###
 
 # And
 TRUE & TRUE
@@ -240,7 +242,7 @@ TRUE | FALSE
 x == 7 | y > x
 
 
-### Logicals as numbers
+### Logicals as numbers ###
 TRUE + TRUE
 TRUE - FALSE
 
